@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.car {
+    width: 100%;
+    animation: car 5s linear;
+}
+
+@keyframes car {
+    100% {
+        transform: translateX(0%);
+    }
+    95% {
+        transform: translateX(0.5%);
+    }
+    80% {
+        transform: translateX(-100%);
+    }
+    79.5% {
+        transform: translateX(250%);
+    }
+    40% {
+        transform: translateX(120%);
+    }
+    30% {
+        transform: translateX(100%);
+    }
+    20% {
+        transform: translateX(60%);
+    }
+    10% {
+        transform: translateX(25%);
+    }
+    5% {
+        transform: translateX(10%);
+    }
+    0% {
+        transform: translateX(0%);
+    }
+}
+
+.wheel {
+    width: 100%;
+    animation: wheel 1s linear infinite;
+}
+
+@keyframes wheel {
+    100%{
+        transform: rotate(36);
+    }
+}
