@@ -3,7 +3,7 @@ import { CarCom } from "@/components/CarCom";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black">
       <Navbar />
       <About />
       <CarCom />

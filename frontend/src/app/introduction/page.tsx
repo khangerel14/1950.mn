@@ -2,7 +2,7 @@ import { About, CarCom, Chances, Footer, Navbar } from "@/components"
 
 const Page = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <Navbar />
       <About />
       <CarCom />

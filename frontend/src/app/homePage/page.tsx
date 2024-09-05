@@ -1,10 +1,11 @@
-import { Navbar, Footer } from '@/components';
+import { Navbar, Footer, Information } from '@/components';
 
 const Page = () => {
   return (
-    <div>
-        <Navbar />
-        <Footer />
+    <div className='bg-black'>
+      <Navbar />
+      <Information />
+      <Footer />
     </div>
   )
 }
