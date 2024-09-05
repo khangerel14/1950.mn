@@ -1,4 +1,4 @@
-import { Car, BackWheel, FrontWheel } from "@/images"
+import { Car, BackWheel, FrontWheel } from "@/images";
 
 export const CarCom = () => {
   return (
@@ -21,5 +21,5 @@ export const CarCom = () => {
         <div className="road flex justify-center items-center top-72"></div>
       </div>
     </div>
-  )
-}
+  );
+};
