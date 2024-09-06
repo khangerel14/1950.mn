@@ -1,5 +1,4 @@
-import { About, Chances, Footer, Navbar } from "@/components";
-import { CarCom } from "@/components/CarCom";
+import { About, Chances, Footer, Navbar, CarCom } from "@/components";
 
 export default function Home() {
   return (

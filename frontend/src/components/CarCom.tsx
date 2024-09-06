@@ -8,10 +8,10 @@ export const CarCom = () => {
           <Car />
         </div>
         <div className="flex items-center gap-14">
-          <div className="z-20 absolute h-[107px] w-[107px] bottom-12">
+          <div className="z-20 absolute h-[107px] w-[107px] bottom-12 left-[355px]">
             <BackWheel />
           </div>
-          <div className="z-20 absolute h-[107px] w-[107px] bottom-12 left-96">
+          <div className="z-20 absolute h-[107px] w-[107px] bottom-12 left-[757px]">
             <FrontWheel />
           </div>
         </div>

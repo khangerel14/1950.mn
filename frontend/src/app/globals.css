@@ -22,9 +22,17 @@
     transparent 100%
   );
   background-size: 50px;
-  animation: animate_road 0.125s linear infinite;
+  animation: animate_road 0.2s linear infinite;
 }
 
+/* @keyframes animate_road {
+  0% {
+    background-position: 50px 0;
+  }
+  100% {
+    background-position: 0px 0;
+  }
+} */
 @keyframes animate_road {
   0% {
     background-position: 50px 0;
@@ -38,8 +46,8 @@
 /* car */
 
 .car {
-  width: 100%;
-  animation: car 4s linear;
+  max-width: 100%;
+  animation: car 2s linear;
 }
 
 @keyframes car {
@@ -82,6 +90,9 @@
   width: 100%;
   animation: wheel 3s linear infinite;
 }
+.wheel::after {
+  transform: translateX(500%);
+}
 
 /* @keyframes wheel {
   100% {
@@ -89,6 +100,9 @@
   }
 } */
 @keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
   100% {
     transform: rotate(760deg);
   }
@@ -104,6 +118,9 @@ svg text {
   stroke-width: 5;
   font-variant-numeric: slashed-zero;
   animation: textAnimate 5s infinite alternate;
+}
+svg text::after {
+  -webkit-text-fill-color: #656565;
 }
 
 @keyframes textAnimate {
