@@ -1,3 +1,5 @@
+import { Submitted } from "@/components";
+
 export const Information = () => {
   return (
     <div className="flex flex-col gap-14 w-96 h-fit mx-auto pt-44 text-white">
@@ -20,7 +22,7 @@ export const Information = () => {
         <label htmlFor="information">Мэдээлэл</label>
         <textarea className="border w-full h-24 outline-none p-2 px-3 rounded-lg"></textarea>
       </div>
-      <input type="submit" value="Submit" className="border p-3 rounded-lg" />
+      <Submitted />
     </div>
   );
 };
