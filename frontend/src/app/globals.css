@@ -91,11 +91,6 @@
   animation: wheel 2s linear infinite;
 }
 
-/* @keyframes wheel {
-  100% {
-    transform: rotate(760deg) translateX(650px);
-  }
-} */
 @keyframes wheel {
   0% {
     transform: rotate(0deg);

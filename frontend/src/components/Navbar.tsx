@@ -23,7 +23,7 @@ export const Navbar = () => {
     router.push("/getInTouch");
   };
   return (
-    <div className="border-b border-gray fixed inset-0 bg-black h-20 z-30">
+    <div className="border-b border-gray-500 fixed inset-0 bg-black h-20 z-30">
       <div className="flex max-w-screen-xl mx-auto items-center h-20 justify-between">
         <div>
           <button onClick={goHome}>

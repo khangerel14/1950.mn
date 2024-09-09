@@ -2,7 +2,7 @@ import { Apple, Playstore } from "@/images";
 
 export const About = () => {
   return (
-    <div className="flex flex-col items-start max-w-screen-xl px-10 mx-auto text-white bg-black py-44 h-[900px]">
+    <div className="flex flex-col items-start max-w-screen-xl px-10 mx-auto text-white bg-black py-40 h-[850px]">
       <svg
         viewBox="150 50 1500 600"
         className="flex justify-center w-full top-32 relative"
@@ -11,7 +11,7 @@ export const About = () => {
           1950
         </text>
       </svg>
-      <div className="flex flex-col justify-between mx-auto gap-28 absolute bg-transparent">
+      <div className="flex flex-col justify-between mx-auto gap-32 absolute bg-transparent">
         <div>
           <h1 className="border border-red-600 px-3 py-1 rounded-3xl w-fit">
             Монголын анхдагч лавлах үйлчилгээ
@@ -29,7 +29,7 @@ export const About = () => {
               <p className="text-gray-500 font-normal">App Store</p>
             </div>
           </button>
-          <button className="flex gap-3 rounded-full px-5 p-3 border items-center shadow-xl bg-white text-black">
+          <button className="flex gap-3 rounded-full px-8 p-3 border items-center shadow-xl bg-white text-black">
             <Playstore />
             <div>
               <h1>Get in on</h1>
