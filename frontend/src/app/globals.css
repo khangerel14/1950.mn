@@ -29,7 +29,7 @@
 
 .car {
   max-width: 100%;
-  animation: car 2s linear;
+  animation: car 4.5s linear;
 }
 
 @keyframes car {
